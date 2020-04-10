@@ -39,7 +39,7 @@ class Navbar extends React.Component{
                 inputValue: search,
             })
         } else {
-        axios.get(`http://danielleservice-env.eba-kfkmxskm.us-east-2.elasticbeanstalk.com/${search}`)
+        axios.get(`127.0.0.1:8081/${search}`)
         .then( ( {data}) => {
             //update state with 10 product names and their corresponding product id's from the database
             var searchedItemsArray = [];
