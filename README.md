@@ -2,6 +2,10 @@
 A dive into the challenges of scaling a database for high volume applications and optimizing the back-end to handle that volume without sacrificing user experience.
 
 # Table of Contents
+- [Goals](#goals)
+- [Workflow](#workflow)
+- [Challenges](#challenges)
+- [Tech Stack](#tech-stack)
 
 # Goals
 The high level goals for this project were to learn and experiment with database scaling and management, while also optimizing the server to handle the heavy load and additional stress.
